@@ -1,4 +1,149 @@
 * {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    color: #08A6E4;
+    text-decoration: none;
+    line-height: 70px;
+}
+nav {
+    box-shadow: 0px 3px 6px #00000029;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    background: white;
+
+}
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    display: inline-block;
+    padding: 0 12px;
+    margin-left: 71px;
+    line-height: 70px;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a {
+    text-decoration: none;
+    color: #A5A5A5;
+    letter-spacing: 3.28px;
+}
+nav li.active {
+    color: black;
+    border-bottom: 4px solid #08A6E4;
+    height: 70px;
+}
+
+nav li.active a {
+    color: black;
+}
+
+header {
+    background-image: url("../images/Background.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+header div.container h1 {
+    font-family: Raleway;
+    font-size: 41px;
+    font-weight: 400;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+header div.container p {
+    margin-bottom: 38px;
+}
+header div.container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    width: 440px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+}
+.iconOne{
+    background-color: blue;
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+    line-height: 62px;
+    padding-left: 30px;
+
+}
+.iconTwo{
+    background-color: #08A6E4;
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+    line-height: 62px;
+    padding-left: 30px;
+
+}
+.iconThree {
+    background-color: #55DFB4;
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+    line-height: 62px;
+    padding-left: 30px;
+
+
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1 {
+    text-align: center;
+    font: ExtraBold 20px/24px Raleway;
+    letter-spacing: 6px;
+    color: #000000;
+    opacity: 1;
+}
+
+p {
+    text-align: center;
+    font: Regular 16px/19px Raleway;
+    letter-spacing: 0;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
 }
